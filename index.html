@@ -12,7 +12,15 @@
     </head>
     <body>
         <div id="app">
-            <ul>
+            <!-- consegna -->
+            <!-- <ul>
+                <li v-for="item in randomEmail">
+                    {{ item }}
+                </li>
+            </ul> -->
+
+            <!-- bonus -->
+            <ul v-if="randomEmail.length == 10">
                 <li v-for="item in randomEmail">
                     {{ item }}
                 </li>
