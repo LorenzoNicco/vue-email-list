@@ -20,7 +20,7 @@
             </ul> -->
 
             <!-- bonus -->
-            <ul v-show="randomEmail.length == 10">
+            <ul v-if="randomEmail.length == 10">
                 <li v-for="item in randomEmail">
                     {{ item }}
                 </li>
